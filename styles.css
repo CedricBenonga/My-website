@@ -1,0 +1,159 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #F4FCD9;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #A2D5AB;
+  font-size: 20px;
+  background: #557B83;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #A2D5AB;
+  color: #557B83;
+  text-decoration: none;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left:200px;
+  bottom: 300px;
+}
+
+.bottom-container{
+  background-color: #557B83;
+  margin-top: 50px;
+  padding: 40px 20px 20px;
+}
+
+.contact-suggestion {
+  width: 400px;
+  margin: 40px auto 50px;
+}
+
+.copyright {
+  color: #F4FCD9;
+  font-size: 0.75rem;
+  padding-top: 20px;
+}
+
+.footer-link {
+  color: #A2D5AB;
+  margin:50px auto 10px;
+  padding: 30px 20px 10px 20px;
+  font-family: 'Merriweather', serif;
+  text-decoration: none; /* to avoid the underline on the button's text */
+}
+
+.footer-link:hover {
+  color: #F4FCD9;
+  text-decoration: none;
+}
+
+/*
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+or
+*/
+
+hr {
+border: dotted grey 5px;
+border-bottom: none;
+width: 4%;
+}
+
+
+h1 {
+  font-size: 5.625rem; /* (100% = 16px = 1em = 1rem) butter use '%'  or 'em' instead of px bcz px does not copy with induvidual default font-size setting. But the best is 'rem' (rout em (M)) as it's not affected by the size setting in the body, in case there's. */
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #39AEA9;
+}
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #557B83;
+  font-weight: normal;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #A2D5AB;
+}
+
+.intro {
+  width: 300%;
+  position: relative;
+  right: 200px;
+}
+
+.language-image {
+  width: 25%;
+  margin: 0 auto 0 30px;
+  background-color: #A2B38B;
+  border-radius: 100%;
+  float: right;
+}
+
+.middle-container {
+}
+
+p {
+  line-height: 2;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile {
+  width: 200px;
+  margin: 50px auto 100px auto;
+  border-radius: 100%;
+}
+
+.skills {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.skill-image {
+  width: 25%;
+  margin: 0 30px 0 auto;
+  background-color: #A2B38B;
+  border-radius: 100%;
+  float: left;
+}
+
+.skill-row {
+  width: 50;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.top-cloud {
+  position: absolute;
+  top:50px;
+  right: 200px;
+  display: block;
+}
+
+.top-container {
+  padding:20px;
+  background: #E5EFC1;
+  position: relative;
+  padding-top: 100px;
+}
